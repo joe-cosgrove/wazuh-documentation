@@ -49,6 +49,10 @@ Register the agent
 2. Run the auth client on the agent. You must enter the authd server's IP address, like this::
 
     /var/ossec/bin/agent-auth -m 192.168.1.2
+    
+3. On MacOSX, run the auth client like this::
+
+    /Library/Ossec/bin/agent-auth -m 192.168.1.2
 
 Some hints
 ^^^^^^^^^^
